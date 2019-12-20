@@ -4,7 +4,7 @@ mongoose.set('debug', true);
 mongoose.Promise = global.Promise
 
 
-mongoose.connect(URI,{ useNewUrlParser: true ,useUnifiedTopology :true },(err)=>{
+mongoose.connect(URI,{ useNewUrlParser: true  },(err)=>{
     if (err){
         console.log(err)
     }else{
